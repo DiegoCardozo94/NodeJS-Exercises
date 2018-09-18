@@ -21,7 +21,7 @@ rp(options)
             console.log('No repositories');
         }else if (repo > 0 && repo <= 3){ 
             console.log('There are '+toNumberString[repo]+' repositories');
-        }else if(repo > 0){ 
+        }else if(repo > 3){ 
              console.log('There are a lot of repositories');
         } 
     })
